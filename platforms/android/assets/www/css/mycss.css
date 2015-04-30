@@ -1,0 +1,94 @@
+body{
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    background-color: #E4E4E4;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.container-fluid, .back{
+    background-color: #2e6da4;
+    padding: 2%;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.backwell{
+    background-color: #b80004;
+}
+
+.container{
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+p {
+   color: #FDFEFF;
+
+}
+
+.navpillcolor{
+
+    color: #FDFEFF;
+}
+
+.panel{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.menubts{
+
+    width: 100%;
+    padding: 2%;
+}
+
+.btn{
+
+    background-color: #2e6da4;
+    color: white;
+    border: 0;
+
+    /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Vorsicht!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+    padding-top:  35%;
+    padding-bottom: 35%;
+}
+
+.btn:hover{
+
+    background-color: #5bc0de;
+}
+
+footer{
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+
+.wrapper{
+
+    width: 100%;
+    margin: 0;
+    padding: 1%;
+}
+
+@media all and (min-width:500px){
+
+    .btn {
+
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+}
